@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="app">
+        <div>学校是:{{school}}</div>
+        <input type="text" s-model="school">
+    </div>
+    <script src="./mvvm.js"></script>
+    <script src="./model.js"></script>
+    <script>
+
+        let sue = new Sue({
+            el: '#app',
+            data: {
+                a: 1,
+                school: 12
+            }
+        });
+
+
+    </script>
+</body>
+</html>
